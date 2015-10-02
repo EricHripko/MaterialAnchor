@@ -1,0 +1,5 @@
+Theme name:    Material
+Description:   This is a theme made in Material Design style.
+Author name:   Eric Hripko
+Author site:   http://blog.isat.xyz
+License:       http://licence.visualidiot.com
