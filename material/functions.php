@@ -39,6 +39,52 @@ function relative_time($date) {
     }
 }
 
+function color_value($color) {
+    switch($color)
+    {
+        default:
+            return null;
+        case 'red':
+            return '#f44336';
+        case 'pink':
+            return '#e91e63';
+        case 'purple':
+            return '#9c27b0';
+        case 'deep_purple':
+            return '#673ab7';
+        case 'indigo':
+            return '#3f51b5';
+        case 'blue':
+            return '#2196f3';
+        case 'light_blue':
+            return '#03a9f4';
+        case 'cyan':
+            return '#00bcd4';
+        case 'teal':
+            return '#009688';
+        case 'green':
+            return '#4caf50';
+        case 'light_green':
+            return '#8bc34a';
+        case 'lime':
+            return '#cddc39';
+        case 'yellow':
+            return '#ffeb3b';
+        case 'amber':
+            return '#ffc107';
+        case 'orange':
+            return '#ff9800';
+        case 'deep_orange':
+            return '#ff5722';
+        case 'brown':
+            return '#795548';
+        case 'grey':
+            return '#9e9e9e';
+        case 'blue_grey':
+            return '#607d8b';
+    }
+}
+
 function color($title) {
     $colors = array('red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'light-blue', 'cyan', 'teal',
         'light-green', 'green', 'lime', 'yellow', 'amber', 'orange', 'brown', 'blue-grey');

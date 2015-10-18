@@ -49,6 +49,10 @@ $accent = empty(article_title()) ? site_meta('accent', 'pink') : str_replace('-'
     <meta property="og:site_name" content="<?php echo site_name(); ?>">
     <meta property="og:description" content="<?php echo site_description(); ?>">
 
+    <!-- Mobile web browsers metadata -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="<?php echo color_value($primary); ?>">
+
     <!-- Custom styles and JavaScript for the displayed article -->
     <?php if(customised()): ?>
         <style type="text/css"><?php echo article_css(); ?></style>

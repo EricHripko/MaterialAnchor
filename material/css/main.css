@@ -1,3 +1,7 @@
+/* Set default behaviours */
+code { text-align: left; }
+img { max-width: 100%; }
+
 /* Helpers */
 .anchor-link--clean {
     text-decoration: none;
